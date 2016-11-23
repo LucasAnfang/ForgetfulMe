@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF57D3EF1DE5368700668276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D3EE1DE5368700668276 /* main.m */; };
+		BF57D3F21DE5368700668276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D3F11DE5368700668276 /* AppDelegate.m */; };
+		BF57D3F51DE5368700668276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D3F41DE5368700668276 /* ViewController.m */; };
+		BF57D3F81DE5368700668276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF57D3F61DE5368700668276 /* Main.storyboard */; };
+		BF57D3FA1DE5368700668276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF57D3F91DE5368700668276 /* Assets.xcassets */; };
+		BF57D3FD1DE5368700668276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF57D3FB1DE5368700668276 /* LaunchScreen.storyboard */; };
+		BF57D4081DE5368700668276 /* GripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D4071DE5368700668276 /* GripTests.m */; };
+		BF57D4131DE5368700668276 /* GripUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D4121DE5368700668276 /* GripUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF57D4041DE5368700668276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF57D3E21DE5368700668276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF57D3E91DE5368700668276;
+			remoteInfo = Grip;
+		};
+		BF57D40F1DE5368700668276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF57D3E21DE5368700668276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF57D3E91DE5368700668276;
+			remoteInfo = Grip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF57D3EA1DE5368700668276 /* Grip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF57D3EE1DE5368700668276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF57D3F01DE5368700668276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF57D3F11DE5368700668276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF57D3F31DE5368700668276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF57D3F41DE5368700668276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF57D3F71DE5368700668276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF57D3F91DE5368700668276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF57D3FC1DE5368700668276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF57D3FE1DE5368700668276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF57D4031DE5368700668276 /* GripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF57D4071DE5368700668276 /* GripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GripTests.m; sourceTree = "<group>"; };
+		BF57D4091DE5368700668276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF57D40E1DE5368700668276 /* GripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF57D4121DE5368700668276 /* GripUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GripUITests.m; sourceTree = "<group>"; };
+		BF57D4141DE5368700668276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF57D3E71DE5368700668276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57D4001DE5368700668276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57D40B1DE5368700668276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF57D3E11DE5368700668276 = {
+			isa = PBXGroup;
+			children = (
+				BF57D3EC1DE5368700668276 /* Grip */,
+				BF57D4061DE5368700668276 /* GripTests */,
+				BF57D4111DE5368700668276 /* GripUITests */,
+				BF57D3EB1DE5368700668276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF57D3EB1DE5368700668276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF57D3EA1DE5368700668276 /* Grip.app */,
+				BF57D4031DE5368700668276 /* GripTests.xctest */,
+				BF57D40E1DE5368700668276 /* GripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF57D3EC1DE5368700668276 /* Grip */ = {
+			isa = PBXGroup;
+			children = (
+				BF57D3F01DE5368700668276 /* AppDelegate.h */,
+				BF57D3F11DE5368700668276 /* AppDelegate.m */,
+				BF57D3F31DE5368700668276 /* ViewController.h */,
+				BF57D3F41DE5368700668276 /* ViewController.m */,
+				BF57D3F61DE5368700668276 /* Main.storyboard */,
+				BF57D3F91DE5368700668276 /* Assets.xcassets */,
+				BF57D3FB1DE5368700668276 /* LaunchScreen.storyboard */,
+				BF57D3FE1DE5368700668276 /* Info.plist */,
+				BF57D3ED1DE5368700668276 /* Supporting Files */,
+			);
+			path = Grip;
+			sourceTree = "<group>";
+		};
+		BF57D3ED1DE5368700668276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF57D3EE1DE5368700668276 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF57D4061DE5368700668276 /* GripTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF57D4071DE5368700668276 /* GripTests.m */,
+				BF57D4091DE5368700668276 /* Info.plist */,
+			);
+			path = GripTests;
+			sourceTree = "<group>";
+		};
+		BF57D4111DE5368700668276 /* GripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF57D4121DE5368700668276 /* GripUITests.m */,
+				BF57D4141DE5368700668276 /* Info.plist */,
+			);
+			path = GripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF57D3E91DE5368700668276 /* Grip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF57D4171DE5368700668276 /* Build configuration list for PBXNativeTarget "Grip" */;
+			buildPhases = (
+				BF57D3E61DE5368700668276 /* Sources */,
+				BF57D3E71DE5368700668276 /* Frameworks */,
+				BF57D3E81DE5368700668276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grip;
+			productName = Grip;
+			productReference = BF57D3EA1DE5368700668276 /* Grip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF57D4021DE5368700668276 /* GripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF57D41A1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripTests" */;
+			buildPhases = (
+				BF57D3FF1DE5368700668276 /* Sources */,
+				BF57D4001DE5368700668276 /* Frameworks */,
+				BF57D4011DE5368700668276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF57D4051DE5368700668276 /* PBXTargetDependency */,
+			);
+			name = GripTests;
+			productName = GripTests;
+			productReference = BF57D4031DE5368700668276 /* GripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF57D40D1DE5368700668276 /* GripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF57D41D1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripUITests" */;
+			buildPhases = (
+				BF57D40A1DE5368700668276 /* Sources */,
+				BF57D40B1DE5368700668276 /* Frameworks */,
+				BF57D40C1DE5368700668276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF57D4101DE5368700668276 /* PBXTargetDependency */,
+			);
+			name = GripUITests;
+			productName = GripUITests;
+			productReference = BF57D40E1DE5368700668276 /* GripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF57D3E21DE5368700668276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "luke anfang";
+				TargetAttributes = {
+					BF57D3E91DE5368700668276 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF57D4021DE5368700668276 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF57D3E91DE5368700668276;
+					};
+					BF57D40D1DE5368700668276 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF57D3E91DE5368700668276;
+					};
+				};
+			};
+			buildConfigurationList = BF57D3E51DE5368700668276 /* Build configuration list for PBXProject "Grip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF57D3E11DE5368700668276;
+			productRefGroup = BF57D3EB1DE5368700668276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF57D3E91DE5368700668276 /* Grip */,
+				BF57D4021DE5368700668276 /* GripTests */,
+				BF57D40D1DE5368700668276 /* GripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF57D3E81DE5368700668276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF57D3FD1DE5368700668276 /* LaunchScreen.storyboard in Resources */,
+				BF57D3FA1DE5368700668276 /* Assets.xcassets in Resources */,
+				BF57D3F81DE5368700668276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57D4011DE5368700668276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57D40C1DE5368700668276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF57D3E61DE5368700668276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF57D3F51DE5368700668276 /* ViewController.m in Sources */,
+				BF57D3F21DE5368700668276 /* AppDelegate.m in Sources */,
+				BF57D3EF1DE5368700668276 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57D3FF1DE5368700668276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF57D4081DE5368700668276 /* GripTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF57D40A1DE5368700668276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF57D4131DE5368700668276 /* GripUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF57D4051DE5368700668276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF57D3E91DE5368700668276 /* Grip */;
+			targetProxy = BF57D4041DE5368700668276 /* PBXContainerItemProxy */;
+		};
+		BF57D4101DE5368700668276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF57D3E91DE5368700668276 /* Grip */;
+			targetProxy = BF57D40F1DE5368700668276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF57D3F61DE5368700668276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF57D3F71DE5368700668276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF57D3FB1DE5368700668276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF57D3FC1DE5368700668276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF57D4151DE5368700668276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF57D4161DE5368700668276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF57D4181DE5368700668276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Grip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.Grip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF57D4191DE5368700668276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Grip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.Grip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF57D41B1DE5368700668276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.GripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grip.app/Grip";
+			};
+			name = Debug;
+		};
+		BF57D41C1DE5368700668276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.GripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grip.app/Grip";
+			};
+			name = Release;
+		};
+		BF57D41E1DE5368700668276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.GripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grip;
+			};
+			name = Debug;
+		};
+		BF57D41F1DE5368700668276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.GripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF57D3E51DE5368700668276 /* Build configuration list for PBXProject "Grip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF57D4151DE5368700668276 /* Debug */,
+				BF57D4161DE5368700668276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF57D4171DE5368700668276 /* Build configuration list for PBXNativeTarget "Grip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF57D4181DE5368700668276 /* Debug */,
+				BF57D4191DE5368700668276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF57D41A1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF57D41B1DE5368700668276 /* Debug */,
+				BF57D41C1DE5368700668276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF57D41D1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF57D41E1DE5368700668276 /* Debug */,
+				BF57D41F1DE5368700668276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF57D3E21DE5368700668276 /* Project object */;
+}
