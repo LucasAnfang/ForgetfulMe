@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2560950803BB985BEB4D1CF1 /* libPods-GripUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 147FF93ED188C5E109ABC59C /* libPods-GripUITests.a */; };
+		BE49BDF22BA8154E1079A3AC /* libPods-Grip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F11EA3A1CCF1A10E9AA3E3EA /* libPods-Grip.a */; };
+		BF3A5C181DF7890700AD46F2 /* LocationDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C171DF7890700AD46F2 /* LocationDetail.m */; };
+		BF3A5C1C1DF78F7A00AD46F2 /* LocationDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C1B1DF78F7A00AD46F2 /* LocationDetailsModel.m */; };
+		BF3A5C201DF7978300AD46F2 /* AddLocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C1F1DF7978300AD46F2 /* AddLocationDetailViewController.m */; };
+		BF3A5C231DF7982B00AD46F2 /* LocationDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C221DF7982B00AD46F2 /* LocationDetailsTableViewController.m */; };
+		BF3A5C281DF7D17A00AD46F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A5C271DF7D17A00AD46F2 /* MapKit.framework */; };
+		BF3A5C2A1DF7D28A00AD46F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A5C291DF7D28A00AD46F2 /* CoreLocation.framework */; };
+		BF3A5C2D1DF8917600AD46F2 /* EditLocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C2C1DF8917600AD46F2 /* EditLocationDetailViewController.m */; };
+		BF3A5C301DF8994B00AD46F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3A5C2E1DF8994B00AD46F2 /* Main.storyboard */; };
+		BF3A5C381DF8D8A400AD46F2 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C371DF8D8A400AD46F2 /* InitialViewController.m */; };
+		BF3A5C3B1DF8EDF400AD46F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF3A5C3A1DF8EDF400AD46F2 /* GoogleService-Info.plist */; };
+		BF3A5C3E1DF900B500AD46F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C3D1DF900B500AD46F2 /* LoginViewController.m */; };
+		BF3A5C411DF900D700AD46F2 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C401DF900D700AD46F2 /* SignupViewController.m */; };
+		BF3A5C441DF932BA00AD46F2 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3A5C431DF932BA00AD46F2 /* UserProfileViewController.m */; };
 		BF57D3EF1DE5368700668276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D3EE1DE5368700668276 /* main.m */; };
 		BF57D3F21DE5368700668276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D3F11DE5368700668276 /* AppDelegate.m */; };
 		BF57D3F51DE5368700668276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D3F41DE5368700668276 /* ViewController.m */; };
-		BF57D3F81DE5368700668276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF57D3F61DE5368700668276 /* Main.storyboard */; };
 		BF57D3FA1DE5368700668276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF57D3F91DE5368700668276 /* Assets.xcassets */; };
 		BF57D3FD1DE5368700668276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF57D3FB1DE5368700668276 /* LaunchScreen.storyboard */; };
 		BF57D4081DE5368700668276 /* GripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D4071DE5368700668276 /* GripTests.m */; };
 		BF57D4131DE5368700668276 /* GripUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57D4121DE5368700668276 /* GripUITests.m */; };
+		CAC291029DC71857A8DB3EC6 /* libPods-GripTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA94447A0C18F32E47D1F6 /* libPods-GripTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +50,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147FF93ED188C5E109ABC59C /* libPods-GripUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GripUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4132E65FA5D105B7575CF0 /* Pods-GripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GripTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GripTests/Pods-GripTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52997D3BDF1F08A03DE362C6 /* Pods-GripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GripUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GripUITests/Pods-GripUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61EB10DD9C455C8334407FC7 /* Pods-GripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GripUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GripUITests/Pods-GripUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71F3AF1B1FA8B3EFFEC93A67 /* Pods-Grip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grip/Pods-Grip.release.xcconfig"; sourceTree = "<group>"; };
+		9D23301C600C5228C8FEFECC /* Pods-Grip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grip/Pods-Grip.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CC5F4014B78775C4B94B91 /* Pods-GripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GripTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GripTests/Pods-GripTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF3A5C171DF7890700AD46F2 /* LocationDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetail.m; sourceTree = "<group>"; };
+		BF3A5C191DF7891F00AD46F2 /* LocationDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationDetail.h; sourceTree = "<group>"; };
+		BF3A5C1A1DF78F6B00AD46F2 /* LocationDetailsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationDetailsModel.h; sourceTree = "<group>"; };
+		BF3A5C1B1DF78F7A00AD46F2 /* LocationDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsModel.m; sourceTree = "<group>"; };
+		BF3A5C1E1DF7978300AD46F2 /* AddLocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLocationDetailViewController.h; sourceTree = "<group>"; };
+		BF3A5C1F1DF7978300AD46F2 /* AddLocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLocationDetailViewController.m; sourceTree = "<group>"; };
+		BF3A5C211DF7982B00AD46F2 /* LocationDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailsTableViewController.h; sourceTree = "<group>"; };
+		BF3A5C221DF7982B00AD46F2 /* LocationDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsTableViewController.m; sourceTree = "<group>"; };
+		BF3A5C271DF7D17A00AD46F2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF3A5C291DF7D28A00AD46F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BF3A5C2B1DF8917600AD46F2 /* EditLocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLocationDetailViewController.h; sourceTree = "<group>"; };
+		BF3A5C2C1DF8917600AD46F2 /* EditLocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLocationDetailViewController.m; sourceTree = "<group>"; };
+		BF3A5C2F1DF8994B00AD46F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3A5C361DF8D8A400AD46F2 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		BF3A5C371DF8D8A400AD46F2 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		BF3A5C391DF8EB4600AD46F2 /* Grip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grip.entitlements; sourceTree = "<group>"; };
+		BF3A5C3A1DF8EDF400AD46F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF3A5C3C1DF900B500AD46F2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BF3A5C3D1DF900B500AD46F2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BF3A5C3F1DF900D700AD46F2 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		BF3A5C401DF900D700AD46F2 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		BF3A5C421DF932BA00AD46F2 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		BF3A5C431DF932BA00AD46F2 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		BF57D3EA1DE5368700668276 /* Grip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF57D3EE1DE5368700668276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF57D3F01DE5368700668276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF57D3F11DE5368700668276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF57D3F31DE5368700668276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF57D3F41DE5368700668276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF57D3F71DE5368700668276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF57D3F91DE5368700668276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF57D3FC1DE5368700668276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF57D3FE1DE5368700668276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +95,8 @@
 		BF57D40E1DE5368700668276 /* GripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF57D4121DE5368700668276 /* GripUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GripUITests.m; sourceTree = "<group>"; };
 		BF57D4141DE5368700668276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAA94447A0C18F32E47D1F6 /* libPods-GripTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GripTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11EA3A1CCF1A10E9AA3E3EA /* libPods-Grip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Grip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3A5C2A1DF7D28A00AD46F2 /* CoreLocation.framework in Frameworks */,
+				BF3A5C281DF7D17A00AD46F2 /* MapKit.framework in Frameworks */,
+				BE49BDF22BA8154E1079A3AC /* libPods-Grip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC291029DC71857A8DB3EC6 /* libPods-GripTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +122,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2560950803BB985BEB4D1CF1 /* libPods-GripUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E38E3C9D01CD1C28E2FF1AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D23301C600C5228C8FEFECC /* Pods-Grip.debug.xcconfig */,
+				71F3AF1B1FA8B3EFFEC93A67 /* Pods-Grip.release.xcconfig */,
+				4C4132E65FA5D105B7575CF0 /* Pods-GripTests.debug.xcconfig */,
+				A0CC5F4014B78775C4B94B91 /* Pods-GripTests.release.xcconfig */,
+				52997D3BDF1F08A03DE362C6 /* Pods-GripUITests.debug.xcconfig */,
+				61EB10DD9C455C8334407FC7 /* Pods-GripUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF3A5C141DF7883200AD46F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A5C171DF7890700AD46F2 /* LocationDetail.m */,
+				BF3A5C191DF7891F00AD46F2 /* LocationDetail.h */,
+				BF3A5C1A1DF78F6B00AD46F2 /* LocationDetailsModel.h */,
+				BF3A5C1B1DF78F7A00AD46F2 /* LocationDetailsModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF3A5C1D1DF7975900AD46F2 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A5C1E1DF7978300AD46F2 /* AddLocationDetailViewController.h */,
+				BF3A5C1F1DF7978300AD46F2 /* AddLocationDetailViewController.m */,
+				BF3A5C211DF7982B00AD46F2 /* LocationDetailsTableViewController.h */,
+				BF3A5C221DF7982B00AD46F2 /* LocationDetailsTableViewController.m */,
+				BF3A5C2B1DF8917600AD46F2 /* EditLocationDetailViewController.h */,
+				BF3A5C2C1DF8917600AD46F2 /* EditLocationDetailViewController.m */,
+				BF3A5C421DF932BA00AD46F2 /* UserProfileViewController.h */,
+				BF3A5C431DF932BA00AD46F2 /* UserProfileViewController.m */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		BF3A5C261DF7D17A00AD46F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A5C291DF7D28A00AD46F2 /* CoreLocation.framework */,
+				BF3A5C271DF7D17A00AD46F2 /* MapKit.framework */,
+				F11EA3A1CCF1A10E9AA3E3EA /* libPods-Grip.a */,
+				CEAA94447A0C18F32E47D1F6 /* libPods-GripTests.a */,
+				147FF93ED188C5E109ABC59C /* libPods-GripUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3A5C341DF8D85700AD46F2 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BF57D3F31DE5368700668276 /* ViewController.h */,
+				BF57D3F41DE5368700668276 /* ViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		BF3A5C351DF8D87800AD46F2 /* LoginAndAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				BF3A5C361DF8D8A400AD46F2 /* InitialViewController.h */,
+				BF3A5C371DF8D8A400AD46F2 /* InitialViewController.m */,
+				BF3A5C3C1DF900B500AD46F2 /* LoginViewController.h */,
+				BF3A5C3D1DF900B500AD46F2 /* LoginViewController.m */,
+				BF3A5C3F1DF900D700AD46F2 /* SignupViewController.h */,
+				BF3A5C401DF900D700AD46F2 /* SignupViewController.m */,
+			);
+			name = LoginAndAuthentication;
+			sourceTree = "<group>";
+		};
 		BF57D3E11DE5368700668276 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +209,8 @@
 				BF57D4061DE5368700668276 /* GripTests */,
 				BF57D4111DE5368700668276 /* GripUITests */,
 				BF57D3EB1DE5368700668276 /* Products */,
+				BF3A5C261DF7D17A00AD46F2 /* Frameworks */,
+				6E38E3C9D01CD1C28E2FF1AA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +227,18 @@
 		BF57D3EC1DE5368700668276 /* Grip */ = {
 			isa = PBXGroup;
 			children = (
+				BF3A5C391DF8EB4600AD46F2 /* Grip.entitlements */,
+				BF3A5C351DF8D87800AD46F2 /* LoginAndAuthentication */,
+				BF3A5C341DF8D85700AD46F2 /* Map */,
+				BF3A5C1D1DF7975900AD46F2 /* Presenters */,
+				BF3A5C141DF7883200AD46F2 /* Model */,
 				BF57D3F01DE5368700668276 /* AppDelegate.h */,
 				BF57D3F11DE5368700668276 /* AppDelegate.m */,
-				BF57D3F31DE5368700668276 /* ViewController.h */,
-				BF57D3F41DE5368700668276 /* ViewController.m */,
-				BF57D3F61DE5368700668276 /* Main.storyboard */,
+				BF3A5C2E1DF8994B00AD46F2 /* Main.storyboard */,
 				BF57D3F91DE5368700668276 /* Assets.xcassets */,
 				BF57D3FB1DE5368700668276 /* LaunchScreen.storyboard */,
 				BF57D3FE1DE5368700668276 /* Info.plist */,
+				BF3A5C3A1DF8EDF400AD46F2 /* GoogleService-Info.plist */,
 				BF57D3ED1DE5368700668276 /* Supporting Files */,
 			);
 			path = Grip;
@@ -147,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF57D4171DE5368700668276 /* Build configuration list for PBXNativeTarget "Grip" */;
 			buildPhases = (
+				7F3BA06F17033BE54E04097B /* [CP] Check Pods Manifest.lock */,
 				BF57D3E61DE5368700668276 /* Sources */,
 				BF57D3E71DE5368700668276 /* Frameworks */,
 				BF57D3E81DE5368700668276 /* Resources */,
+				EFE8914C805C65AC81D6C498 /* [CP] Embed Pods Frameworks */,
+				FF56399648A49CC53C4E33D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF57D41A1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripTests" */;
 			buildPhases = (
+				829D37302ABD91FEB21BD148 /* [CP] Check Pods Manifest.lock */,
 				BF57D3FF1DE5368700668276 /* Sources */,
 				BF57D4001DE5368700668276 /* Frameworks */,
 				BF57D4011DE5368700668276 /* Resources */,
+				D943DB168C84AB7DC3147542 /* [CP] Embed Pods Frameworks */,
+				FC6F951B6BEC02F1B91ED21A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF57D41D1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripUITests" */;
 			buildPhases = (
+				6E32E3D4F2937FA193941C9B /* [CP] Check Pods Manifest.lock */,
 				BF57D40A1DE5368700668276 /* Sources */,
 				BF57D40B1DE5368700668276 /* Frameworks */,
 				BF57D40C1DE5368700668276 /* Resources */,
+				641483333C82618563461BDF /* [CP] Embed Pods Frameworks */,
+				A466461667A5DA875A172167 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +346,13 @@
 				TargetAttributes = {
 					BF57D3E91DE5368700668276 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6R792ZGVA3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					BF57D4021DE5368700668276 = {
 						CreatedOnToolsVersion = 8.1;
@@ -246,9 +391,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3A5C301DF8994B00AD46F2 /* Main.storyboard in Resources */,
+				BF3A5C3B1DF8EDF400AD46F2 /* GoogleService-Info.plist in Resources */,
 				BF57D3FD1DE5368700668276 /* LaunchScreen.storyboard in Resources */,
 				BF57D3FA1DE5368700668276 /* Assets.xcassets in Resources */,
-				BF57D3F81DE5368700668276 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +414,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		641483333C82618563461BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GripUITests/Pods-GripUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E32E3D4F2937FA193941C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3BA06F17033BE54E04097B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		829D37302ABD91FEB21BD148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A466461667A5DA875A172167 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GripUITests/Pods-GripUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D943DB168C84AB7DC3147542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GripTests/Pods-GripTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE8914C805C65AC81D6C498 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grip/Pods-Grip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6F951B6BEC02F1B91ED21A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GripTests/Pods-GripTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF56399648A49CC53C4E33D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grip/Pods-Grip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF57D3E61DE5368700668276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,7 +559,16 @@
 			files = (
 				BF57D3F51DE5368700668276 /* ViewController.m in Sources */,
 				BF57D3F21DE5368700668276 /* AppDelegate.m in Sources */,
+				BF3A5C201DF7978300AD46F2 /* AddLocationDetailViewController.m in Sources */,
 				BF57D3EF1DE5368700668276 /* main.m in Sources */,
+				BF3A5C381DF8D8A400AD46F2 /* InitialViewController.m in Sources */,
+				BF3A5C411DF900D700AD46F2 /* SignupViewController.m in Sources */,
+				BF3A5C1C1DF78F7A00AD46F2 /* LocationDetailsModel.m in Sources */,
+				BF3A5C231DF7982B00AD46F2 /* LocationDetailsTableViewController.m in Sources */,
+				BF3A5C2D1DF8917600AD46F2 /* EditLocationDetailViewController.m in Sources */,
+				BF3A5C441DF932BA00AD46F2 /* UserProfileViewController.m in Sources */,
+				BF3A5C3E1DF900B500AD46F2 /* LoginViewController.m in Sources */,
+				BF3A5C181DF7890700AD46F2 /* LocationDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,10 +604,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF57D3F61DE5368700668276 /* Main.storyboard */ = {
+		BF3A5C2E1DF8994B00AD46F2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF57D3F71DE5368700668276 /* Base */,
+				BF3A5C2F1DF8994B00AD46F2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -420,28 +713,41 @@
 		};
 		BF57D4181DE5368700668276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D23301C600C5228C8FEFECC /* Pods-Grip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Grip/Grip.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6R792ZGVA3;
 				INFOPLIST_FILE = Grip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.Grip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BF57D4191DE5368700668276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F3AF1B1FA8B3EFFEC93A67 /* Pods-Grip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Grip/Grip.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6R792ZGVA3;
 				INFOPLIST_FILE = Grip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luke-anfang.Grip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		BF57D41B1DE5368700668276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4132E65FA5D105B7575CF0 /* Pods-GripTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GripTests/Info.plist;
@@ -454,6 +760,7 @@
 		};
 		BF57D41C1DE5368700668276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CC5F4014B78775C4B94B91 /* Pods-GripTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GripTests/Info.plist;
@@ -466,6 +773,7 @@
 		};
 		BF57D41E1DE5368700668276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52997D3BDF1F08A03DE362C6 /* Pods-GripUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GripUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +785,7 @@
 		};
 		BF57D41F1DE5368700668276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EB10DD9C455C8334407FC7 /* Pods-GripUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GripUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +814,7 @@
 				BF57D4191DE5368700668276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF57D41A1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +823,7 @@
 				BF57D41C1DE5368700668276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF57D41D1DE5368700668276 /* Build configuration list for PBXNativeTarget "GripUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +832,7 @@
 				BF57D41F1DE5368700668276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

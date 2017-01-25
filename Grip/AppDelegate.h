@@ -5,7 +5,7 @@
 //  Created by luke anfang on 11/22/16.
 //  Copyright © 2016 luke anfang. All rights reserved.
 //
-
+//lanfang@usc.edu
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

@@ -4,10 +4,10 @@
 //
 //  Created by luke anfang on 11/22/16.
 //  Copyright © 2016 luke anfang. All rights reserved.
-//
+////lanfang@usc.edu
 
 #import "AppDelegate.h"
-
+@import Firebase;
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FIRApp configure];
     return YES;
 }
 
